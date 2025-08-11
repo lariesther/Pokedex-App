@@ -1,7 +1,7 @@
-import {StyleSheet} from "react-native"
+import { StyleSheet } from "react-native";
 
-export const styles = Style.create({
-    container: { 
+export const styles = StyleSheet.create ({
+    container: {
         marginBottom: 10,
     },
     imageContainer: {
@@ -15,6 +15,7 @@ export const styles = Style.create({
         top: -150,
         resizeMode: "cover",
     },
+    
     titleContainer: {
         paddingHorizontal: 15,
         marginTop: -40,
@@ -22,8 +23,8 @@ export const styles = Style.create({
     backButton: {
         marginRight: 15,
     },
-    titlt: {
+    title: {
         fontSize: 32,
         fontWeight: "bold",
     },
-})
+});
